@@ -5,7 +5,7 @@ public class BannerRender {
         if ((platform.toUpperCase().indexOf("MAC") > -1) &&
                 (browser.toUpperCase().indexOf("IE") > -1)) {
             // do something
-            System.out.println("pass the if condition");
+            System.out.print("pass the if condition");
         }
     }
 }
