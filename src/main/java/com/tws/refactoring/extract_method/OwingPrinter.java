@@ -8,7 +8,6 @@ import java.util.Vector;
 public class OwingPrinter {
     void printOwing(String name, List<Order> orders) {
 
-
         printBanner();
 
         double outstanding=calculateOutstanding(orders);

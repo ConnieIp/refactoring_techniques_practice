@@ -27,9 +27,6 @@ public class OwingPrinterTest {
 
     @Test
     public void printOwing() {
-//        System.out.print("hello");
-//        assertEquals("hello", outContent.toString());
-
         List<Order> orders=new ArrayList<>();
         orders.add(new Order(1.0));
         orders.add(new Order(2.0));
